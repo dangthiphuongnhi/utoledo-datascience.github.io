@@ -15,6 +15,29 @@
 </head>
 <body>
 
+    <div id="header">
+        <button type="button" class="navButton">🞬</button>
+        <ul>
+            <li>
+                <a href="index.html" class="hvr-grow navbarLink">Home</a>
+            </li>
+            <li>
+                <a href="projects.html" class="hvr-grow navbarLink">Projects</a>
+            </li>
+            <li>
+                <a href="team.html" class="hvr-grow navbarLink">Our Team</a>
+            </li>
+            <li>
+                <a href="events.html" class="hvr-grow navbarLink">Events</a>
+            </li>
+            <li>
+                <a href="contactUs.html" class="hvr-grow navbarLink">Contact Us</a>
+            </li>
+        </ul>
+
+        <script src="js/navbar.js"></script>
+    </div>
+
     <script type="text/javascript">
         function sendEmail() {
             var name = document.getElementById("name").value;
@@ -59,30 +82,13 @@
         });
     </script>
 
-    <div id="header">
-        <button type="button" class="navButton">🞬</button>
-        <ul>
-            <li>
-                <a href="index.html" class="hvr-grow navbarLink">Home</a>
-            </li>
-            <li>
-                <a href="projects.html" class="hvr-grow navbarLink">Projects</a>
-            </li>
-            <li>
-                <a href="team.html" class="hvr-grow navbarLink">Our Team</a>
-            </li>
-            <li>
-                <a href="events.html" class="hvr-grow navbarLink">Events</a>
-            </li>
-            <li>
-                <a href="contactUs.html" class="hvr-grow navbarLink">Contact Us</a>
-            </li>
-        </ul>
-
-        <script src="js/navbar.js"></script>
-    </div>
-
     <main>
+
+        <div id="particle_effects" class="team_particles"></div>
+
+        <script type="text/javascript" src="js/particle_effect/particles.js"></script>
+        <script type="text/javascript" src="js/particle_effect/particle_effect.js"></script>
+
         <div class="wrapper">
             <!--alert messages start-->
             <div id="success" class="alert-success">
@@ -109,9 +115,16 @@
                         <input type="button" name="submit" class="send-btn" value="Send" onclick="sendEmail()" />
                     </form>
                 </div>
+
             </div>
             <!--contact page end-->
+
+
         </div>
+
+
+
+
     </main>
 
     <div id="footer">
