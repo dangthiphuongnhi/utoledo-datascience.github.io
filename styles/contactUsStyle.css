@@ -18,6 +18,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.contact_particles {
+    height: 90vh;
+}
+
 
 
 #header {
@@ -55,7 +59,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -800px;
+    margin-top: -45%;
 }
 
 
@@ -68,7 +72,6 @@ a {
 }
 
 .contact-info {
-    display: none;
     color: #fff;
     max-width: 500px;
     line-height: 65px;

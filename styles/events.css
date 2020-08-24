@@ -3,7 +3,7 @@
 .event_particles{
     z-index: 9999;
     position: relative;
-    display: flex;
+    height: 90vh;
 }
 
 .intro p {
